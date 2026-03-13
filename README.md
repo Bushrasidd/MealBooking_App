@@ -1,16 +1,28 @@
-# meal_booking
+A full-stack mobile application that allows users to seamlessly book and manage their daily meals. Built with a focus on speed, real-time updates, and a clean user experience.
+---
 
-Meal booking app
+### 🛠️ Tech Stack
+- **Frontend:** [Flutter](https://flutter.dev/) (Android/iOS)
+- **Backend:** [FastAPI](https://fastapi.tiangolo.com/) (Python)
+- **Database:** PostgreSQL / SQLite
+- **API Style:** RESTful API
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+### ✨ Key Features
+- **User Authentication:** Secure login and registration for users.
+- **Booking System:** One-tap meal reservation and cancellation.
+- **Real-time Status:** Instant feedback on booking availability using FastAPI's high-performance backend.
 
-A few resources to get you started if this is your first Flutter project:
+---
+### 📂 Project Structure
+- `/lib`: Flutter frontend source code.
+- `/assets`: UI designs and application icons.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
+📦 Deployment & App Generation
+This project is ready for distribution. To generate the installable files, run the following commands in your terminal:
+**Android APK**: For direct installation and testing on devices.
+flutter build apk --release
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Clone the Backend**: Ensure the FastAPI server is running first (refer to the backend repo for setup).
