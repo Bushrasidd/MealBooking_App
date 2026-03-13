@@ -12,7 +12,7 @@ class AppDecorations {
     colors: [AppColors.primary, AppColors.secondary],
   );
 
-  // Use as: decoration: BoxDecoration(gradient: AppDecorations.mainGradient)
+ 
 
   static final dialogGradient = const LinearGradient(
     begin: Alignment.topLeft,
