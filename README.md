@@ -1,6 +1,6 @@
-A full-stack mobile application that allows users to seamlessly book and manage their daily meals. Built with a focus on speed, real-time updates, and a clean user experience.
+# 🍱 Meal Booking App
+A full-stack mobile application that allows users to seamlessly book and manage their daily meals. Built with a focus on speed, real-time updates, and a clean user experience.---
 ---
-
 ### 🛠️ Tech Stack
 - **Frontend:** [Flutter](https://flutter.dev/) (Android/iOS)
 - **Backend:** [FastAPI](https://fastapi.tiangolo.com/) (Python)
